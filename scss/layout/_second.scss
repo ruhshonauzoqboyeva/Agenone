@@ -1,0 +1,122 @@
+
+
+#second {
+    .service {
+        h2 {
+            width: 100%;
+            height: 76px;
+            color: #0C111F;
+            font-family: Inter-bold;
+            font-size: 72px;
+            text-align: center;
+            padding: 50px 0 64px 0;
+
+            span {
+                color: #38C682;
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .wrap {
+        width: 1280px;
+        height: 595px;
+        background-color: #F8F8F8;
+        border-radius: 20px;
+        border: none;
+        margin-top: 64px;
+
+        .wrap-h {
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+
+            .design {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+
+                .design-wrap {
+                    h5 {
+                        font-family: Inter-semibold;
+                        font-size: 32px;
+                        color: #1FA379;
+                        padding: 54px 30px 0 64px;
+                    }
+                }
+
+                .design-wrap2 {
+                    h5 {
+                        font-family: Inter-semibold;
+                        font-size: 32px;
+                        color: #1FA379;
+                        padding: 54px 0 0 0;
+                    }
+                }
+            }
+
+            .pastka {
+                padding: 54px 40px 54px 60px;
+            }
+        }
+
+        .wrap-p {
+            p {
+                font-family: Inter-regular;
+                font-size: 18px;
+                color: #5C5E60;
+                padding: 24px 370px 40px 128px;
+            }
+        }
+
+        .wrap-img {
+            width: 1070px;
+            height: 327px;
+            border-radius: 12px;
+            border: none;
+            padding: 0 64px 54px 128px;
+        }
+    }
+
+    .marketing {
+        background-color: #F8F8F8;
+        width: 1280px;
+        height: 148px;
+        border-radius: 20px;
+        border: none;
+        margin: 24px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .marketing-number {
+                h5 {
+                    font-family: Inter-semibold;
+                    font-size: 32px;
+                    color: #454749;
+                    padding: 54px 40px 54px 60px;
+                }
+            }
+
+            .marketing-word {
+                h5 {
+                    font-family: Inter-semibold;
+                    font-size: 32px;
+                    color: #454749;
+                }
+            }
+        }
+
+        &-hint {
+            padding: 54px 40px 54px 60px;
+        }
+    }
+}

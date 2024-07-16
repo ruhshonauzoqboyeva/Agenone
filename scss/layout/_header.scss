@@ -1,0 +1,37 @@
+header {
+    // background-color: rgba(0, 0, 122, 0);
+    background-image: url(../../assets/images/bgimg.svg);
+    background-color: #0C111F;
+
+    .header-nav {
+        @extend %flex;
+        height: 94px;
+        padding-top: 50px;
+
+        h2 {
+            color: white
+        }
+
+        ul {
+            @extend %flex;
+            gap: 40px;
+
+            a {
+                color: white;
+                font-size: 18px;
+                font-family: Inter-Medium;
+            }
+        }
+
+        .button {
+            width: 132px;
+            height: 56px;
+            border-radius: 100px;
+            border: none;
+            background: linear-gradient(#00796D, #38C682);
+            color: white;
+            font-size: 16px;
+            font-family: Inter-Medium;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Inter-bold;
+  src: url(../../assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter-medium;
+  src: url(../../assets/fonts/);
+}
+
+@font-face {
+  font-family: Inter-semibold;
+  src: url(../../assets/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter-regular;
+  src: url(../../assets/fonts/Inter-Regular.ttf);
+}
+
+#third {
+  width: 100%;
+  height: 561px;
+  background: linear-gradient(
+    279.69deg,
+    rgba(0, 121, 109, 0.1) 0%,
+    rgba(56, 198, 130, 0.1) 100%
+  );
+  position: relative;
+
+  .wrapper {
+    padding: 80px 0;
+    .position{
+        position: absolute;
+        top: 50px;
+        left: 260px;
+    }
+    .position2{
+        position: absolute;
+        top: 70px;
+        right: 10px;
+    }
+    .pride {
+      p {
+        font-family: Inter-medium;
+        font-size: 44px;
+        color: #0c111f;
+        margin-bottom: 64px;
+      }
+    }
+    .strive {
+      width: 1280px;
+      height: 181px;
+      background: linear-gradient(#38c682, #00796d);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 20px;
+      border: none;
+      .years {
+        h5 {
+          font-family: Inter-bold;
+          font-size: 72px;
+          color: white;
+          text-align: center;
+        }
+        p {
+          font-family: Inter-medium;
+          font-size: 24px;
+          color: #f3f3f3;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+#sixth {
+  width: 100%;
+  position: relative;
+  // height: 800px;
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: -156px;
+    position: relative;
+    z-index: -1;
+    .names {
+        width: 1064px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 40px;
+        grid-template-areas:
+          ". b"
+          ". b"
+          ". b"
+          "a b"
+          "a d"
+          "a d"
+          "a d"
+          "c d"
+          "c f"
+          "c f"
+          "c f"
+          "e f"
+          "e g"
+          "e g"
+          "e .";
+          //   ". b"
+          //   ". b"
+          //   ". b"
+          //   "a b"
+          //   "a d"
+          //   "c d"
+          //   "c d"
+          //   "c d"
+          //   "c f"
+          //   "e f"
+          //   "e f"
+          //   "e f"
+          //   "e g"
+          //   ". g";
+          .lorem {
+          width: 508px;
+          height: 256px;
+          border-radius: 12px;
+          border: none;
+          padding: 24px;
+          background-color: #f8f8f8;
+    
+          .occupation {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-between;
+            &-p {
+              color: #6d7079;
+              font-size: 20px;
+            }
+            .common {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 12px;
+            }
+    
+            .nom {
+              h2 {
+                font-family: Inter-semibold;
+                font-size: 20px;
+                color: #0c111f;
+              }
+              p {
+                font-family: Inter-regular;
+                font-size: 20px;
+                color: #6d7079;
+              }
+            }
+          }
+          &:first-child {
+            grid-area: a;
+            background: linear-gradient(#38c682, #00796d);
+    
+            .occupation p {
+              color: #f3f3f3;
+            }
+    
+            .nom {
+              h2 {
+                color: #ffffff;
+              }
+              p {
+                color: #f3f3f3;
+              }
+            }
+          }
+          &:nth-child(2) {
+            grid-area: c;
+          }
+    
+          &:nth-child(3) {
+            grid-area: e;
+          }
+          &:nth-child(4) {
+            grid-area: b;
+          }
+          &:nth-child(5) {
+            grid-area: d;
+          }
+          &:nth-child(6) {
+            grid-area: f;
+          }
+          &:last-child {
+            grid-area: g;
+          }
+        }
+      }
+  }
+
+  
+}

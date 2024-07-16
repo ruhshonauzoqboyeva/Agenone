@@ -1,0 +1,116 @@
+footer {
+  background-image: url(../../assets/images/footer-bgm.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 698px;
+  position: absolute;
+  top: -250px;
+  position: relative;
+  .footer-wrapper {
+    .wrap-discus {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 50px 0;
+
+      .discuss {
+        h5 {
+          font-family: Inter-semibold;
+          font-size: 44px;
+          color: white;
+        }
+      }
+
+      .discus {
+        width: 168px;
+        height: 68px;
+        border-radius: 100px;
+        border: none;
+        background: linear-gradient(#38c682, #00796d);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+
+        h5 {
+          font-family: Inter-medium;
+          font-size: 18px;
+          color: white;
+        }
+      }
+    }
+
+    .chiziq {
+      width: 1280px;
+      height: 1px;
+      background-color: #3d414c;
+    }
+
+    .ul-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 100px 0 40px 0;
+      .agenone {
+        .head {
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          gap: 8px;
+
+          h3 {
+            font-family: Inter-bold;
+            font-size: 24px;
+            color: white;
+          }
+        }
+        &-p {
+          font-family: Inter-regular;
+          font-size: 18px;
+          color: #b6b8bc;
+          padding: 25px 0 40px 0;
+        }
+        .hello {
+          font-family: Inter-medium;
+          font-size: 18px;
+          color: #b6b8bc;
+        }
+      }
+      .footer-ul {
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        h2 {
+          font-family: Inter-bold;
+          font-size: 18px;
+          color: white;
+        }
+        &-li {
+          &-a {
+            font-family: Inter-regular;
+            font-size: 18px;
+            color: #b6b8bc;
+          }
+        }
+      }
+    }
+    .finally {
+      margin: 40px auto;
+      h5 {
+        font-family: Inter-regular;
+        font-size: 18px;
+        color: #b6b8bc;
+        text-align: center;
+      }
+    }
+    .before {
+      position: absolute;
+      top: 300px;
+      left: 0;
+    }
+    .after {
+      position: absolute;
+      top: 400px;
+      right: 0;
+    }
+  }
+}
